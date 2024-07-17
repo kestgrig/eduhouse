@@ -5,10 +5,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- 3rd-party / vendors kiti sukonstravo-->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- base -- pagrindiniai stiliai-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- components komponentai-->
+    <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/courses.css">
+    <link rel="stylesheet" href="./css/mentors.css">
+    <!-- custom style for this page only -->
 </head>
 
 <body>
 
+    <aside>
+        <img class="logo" src="./img/eduhouse.png" alt="logo">
+        <nav class="main-nav">
+            <div class="nav-group">
+                <p class="nav-group-title">Main menu</p>
+                <div class="nav-list">
+                    <a class="link active" href="#">Overview</a>
+                    <a class="link" href="#">E-Book</a>
+                    <a class="link" href="#">My Courses</a>
+                    <a class="link" href="#">Purchase Course</a>
+                    <a class="link" href="#">Completed Courses</a>
+                    <a class="link" href="#">Community</a>
+                </div>
+            </div>
+            <div class="nav-group">
+                <p class="nav-group-title">Setting</p>
+                <div class="nav-list">
+                    <a class="link" href="#">Profile</a>
+                    <a class="link" href="#">Setting</a>
+                    <a class="link" href="#">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <main>
+        <header class="main-header">
+            <form class="form">
+                <input type="text" placeholder="Search here..." value="">
+                <i class="fa fa-search icon"></i>
+            </form>
+            <div class="user-block">
+                <i class="fa fa-bell-o notifications">
+                    <div class="bubble"></div>
+                </i>
+                <img class="avatar" src="./img/user-avatar.jpg" alt="User-avatar">
+            </div>
+        </header>
+
+        <section class="block course-progress">
+            <h2 class="title">Course in progress</h2>
+            <a class="link" href="#">View all</a>
+            <div class="content course-list">
+                <article class="course violet ">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/course-1.png" alt="">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 20%">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>20%</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course orange">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/icon2.png" alt="Course app design icon">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere temporibus mollitia eaque aliquid</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 80%">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>80%</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course aqua">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/icon3.png" alt="Course app design icon">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 50%">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>50%</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="block subscription">
+            <div class="content">
+                <img src="./img/kiauletaupykle.png" alt="taupykle">
+                <p>Lorem, ipsum dolor sit amet.</p>
+                <a href="#" class="yellow-submarine">Upgrade to Pro</a>
+            </div>
+        </section>
+
+        <section class="block block-bg popular-categories">
+            <h2 class="title">Popular categories</h2>
+            <div class="content">CONTENT</div>
+        </section>
+
+        <section style="background-color: #e6f5fa;" class="block block-bg top-mentors">
+            <h2 class="title">Top mentors</h2>
+            <a class="link" href="#">View all</a>
+            <table class="content">
+                <!-- <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Name</td>
+                        <td>Adress</td>
+                        <td>Actions</td>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="" alt="img">
+                            <div class="namesurname">Shine Smith</div>
+                        </td>
+                        <td>Name</td>
+                        <td>Adress</td>
+                        <td>Actions</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Name</td>
+                        <td>Adress</td>
+                        <td>Actions</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Name</td>
+                        <td>Adress</td>
+                        <td>Actions</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Name</td>
+                        <td>Adress</td>
+                        <td>Actions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>

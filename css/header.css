@@ -1,0 +1,65 @@
+.main-header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form {  
+    position: relative;
+}
+
+.form > input {
+    width: 365px;
+    height: 50px;
+    padding: 15px 20px 15px 50px;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    color: #5D5169;
+    background-color: #FBFAF5;
+    border-radius: 25px;
+}
+
+.form > .fa {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ddd;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+
+.user-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.notifications {
+    font-size: 30px;
+    color: #333;
+    position: relative;
+}
+
+.notifications > .bubble {
+    height: 10px;
+    width: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
+
+
+.avatar {
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+

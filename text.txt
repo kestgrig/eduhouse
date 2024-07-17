@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+aside {
+    background-color: bisque;
+    width: 350px;
+    padding: 40px;
+    float: left;
+    height: 500px;
+    border: 50px solid red;
+}
+
+
+main,
+div {
+    background-color: aqua;
+    width: calc((100% - 350px) / 2);
+    float: left;
+    height: 500px;
+}
+div {
+    background-color: lavender;
+
+}
+
+section {
+    background-color: brown;
+    display: inline-block;
+    width: 100%;
+    padding: 50px;
+}
+
+
+p {
+    border: 1px solid red;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+
+p:first-child {
+    background-color: blue;
+}
+
+p:nth-child(3) {
+    background-color: rgb(0, 255, 55);
+}
+
+p:last-child {
+    background-color: rgb(229, 255, 0);
+}
+
+
+.container::-webkit-scrollbar {      // padaro scrollbar
+    display: none;
+}                                 

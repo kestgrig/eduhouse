@@ -1,7 +1,6 @@
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
-[![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
+[![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)]
 
 # Eduhouse
 
@@ -13,7 +12,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at:https://github.com/kestgrig/eduhouse
+Site published at: https://github.com/kestgrig/eduhouse
 
 Design: [Eduhouse](https://dribbble.com/shots/14735947--Eduhouse-Education-Management-Dashboard-Design/attachments/6437950?mode=media)
 
@@ -68,7 +67,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 There is no tests for this project.
 
-## 🎅 Authors
+## 🥷 Authors
 
 Kestutis: [Github](https://github.com/kestgrig)
 
