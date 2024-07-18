@@ -2,16 +2,9 @@ table {
     border-spacing: 0 1rem;
 }
 
-thead {
-
-}
-
-thead tr {
-
-}
 
 thead td {
-    padding: 1rem;
+    padding: 2rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
@@ -19,34 +12,33 @@ thead td {
 }
 
 tbody {
-    border-spacing: 1rem;
+    border-spacing: 2rem;
 }
 
-tbody tr {
-    background-color: rgba(0, 0, 0, 0.05);
+tbody > tr {
+    background-color: #FFFFFF;
+    
 }
 
 
 tbody tr:hover {
     background-color: rgba(0, 0, 0, 0.2);
+    
 }
 
-tbody td {
-    padding: 1rem;
-    margin-bottom: 2rem;
+tbody tr td {
+    padding: 1.1rem;
 }
 
-tbody td:first-child {
-    border-radius: 1rem 0 0 1rem;
-
+.firstMentor {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px ;
+    
 }
 
-tbody td:last-child {
-    border-radius: 0 1rem 1rem 0;
-
-}
-
-tbody td div {
+tbody tr td div {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -54,8 +46,47 @@ tbody td div {
 
 tbody td img {
     display: inline-block;
-    width: 3rem;
-    height: 3rem;
-    background-color: red;
-    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 60%;
+}
+
+
+.textMentors {
+    color: #6E6A7B;
+
+}
+
+.buttonFollow {
+    background-color: #F8B310;
+    border: 1px solid #F8B310;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.buttonFollow:hover {
+    cursor: pointer;
+}
+
+.fa-envelope-o {
+    font-size: 21px;
+    background-color: #FFF4DA;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.letterIcon:hover {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.threedotsIcon {
+    color: #E6E6E4;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.threedotsIcon:hover {
+    cursor: pointer;
 }

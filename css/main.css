@@ -38,12 +38,13 @@ main {
 
 .popular-categories {
     grid-area: popular;
+    width: 290px;
     
 }
 
 .top-mentors {
     grid-area: mentors;
-    
+    width: 900px;
 }
 
 .block {
@@ -123,19 +124,56 @@ main {
     user-select: none;
 }
 
+.content > article {
+    background-color: #fff;
+    border-radius: 10%;
+    gap: 50px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.popCateg {
+    display: flex;
+}
+
+.textone {
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.texttwo {
+    color: #7E7886
+}
+
+.violeticonDesign {
+    background-color: #F4F2FD;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.orangeDesign {
+    background-color: #FFF2EC;
+    border-radius: 50%;
+    padding: 15px;
+}
 
 
 
+.blueDesign {
+    background-color: #E7F6FB;
+    border-radius: 50%;
+    padding: 15px;
+}
 
 
-
-
-
-
-
-
-
-
+.greenDesign {
+    background-color: #ECFAED;
+    border-radius: 50%;
+    padding: 15px;
+}
 
 
 
