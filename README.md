@@ -2,7 +2,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)]
 
-# Eduhouse
+# Eduhouse 🧑‍🎓
 
 _website design project_
 
